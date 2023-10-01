@@ -32,7 +32,7 @@
     transition: 0.25s;
     margin-top: 100px;
     position: relative;
-    animation: mymove 5s;
+    /* animation: mymove 5s; */
     color: antiquewhite;
     /* width: 500px;
     padding: 40px;
@@ -47,17 +47,18 @@
 }
 
 .slide {
-    animation-timing-function: linear;
+    /* animation-timing-function: linear; */
 }
 
-@keyframes mymove {
+
+/* @keyframes mymove {
     from {
         left: 0px;
     }
     to {
         left: 30px;
     }
-}
+} */
 
 .box input[type="text"],
 .box input[type="password"] {
@@ -110,14 +111,6 @@
 .forgot {
     text-decoration: underline
 }
-
-
-/* .body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background: linear-gradient(to right, #b92b27, #1565c0)
-} */
 
 ul#remove {
     list-style-type: none;
